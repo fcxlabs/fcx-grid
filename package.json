@@ -1,0 +1,38 @@
+{
+  "name": "@fcxlabs/grid",
+  "version": "1.0.0",
+  "description": "Scale package for FCx Labs",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcxlabs/fcx-grid.git"
+  },
+  "author": "fernando.lopes <fernando.lopes@ferreiracosta.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.20",
+    "@types/react-native": "^0.65.0",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "typescript": "^4.4.2"
+  },
+  "peerDependencies": {
+    "react": ">= 16.13.1",
+    "react-native": ">= 0.63.4"
+  },
+  "bugs": {
+    "url": "https://github.com/fcxlabs/fcx-grid/issues"
+  },
+  "homepage": "https://github.com/fcxlabs/fcx-grid#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "prepublish": "npm run build",
+  "keywords": [
+    "scale"
+  ],
+  "files": [
+    "/lib/**/**"
+  ]
+}
