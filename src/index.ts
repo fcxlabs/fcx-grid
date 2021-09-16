@@ -1,17 +1,7 @@
-import React from "react";
-import { Dimensions } from "react-native";
+import { scale } from "./scale";
 
-export { fcxSpacing } from "./scale";
-
-const { width } = Dimensions.get("window");
-
-export const scale = width / 360;
+export { fcxSpacing, fcxScale, scale } from "./scale";
 
 export const toScale = (value: number) => {
   return value * scale;
 };
-
-// export default {
-//   toScale,
-//   fcxSpacing,
-// };
