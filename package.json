@@ -1,6 +1,6 @@
 {
   "name": "@fcxlabs/grid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scale package for FCx Labs",
   "main": "./lib/index.js",
   "repository": {
